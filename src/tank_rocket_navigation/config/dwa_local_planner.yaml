@@ -1,0 +1,31 @@
+DWAPlannerROS:
+  # Tốc độ tuyến tính
+  max_vel_x: 2
+  min_vel_x: -2
+  max_vel_trans: 2
+  min_vel_trans: 0.5
+
+  # Tốc độ góc
+  max_vel_theta: 1.0
+  min_vel_theta: -1.0
+
+  # Gia tốc
+  acc_lim_x: 1.0
+  acc_lim_theta: 2.0
+
+  # Dung sai mục tiêu
+  xy_goal_tolerance: 0.1
+  yaw_goal_tolerance: 0.3
+
+  # Tham số mô phỏng
+  sim_time: 1.5
+  vx_samples: 20
+  vth_samples: 40
+
+  # Tham số tránh va chạm
+  path_distance_bias: 32.0
+  goal_distance_bias: 20.0
+  occdist_scale: 0.02
+
+  # Ngăn ngừa dao động
+  oscillation_reset_dist: 0.05
