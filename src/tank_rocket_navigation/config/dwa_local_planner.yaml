@@ -1,8 +1,8 @@
 DWAPlannerROS:
   # Tốc độ tuyến tính
-  max_vel_x: 2
-  min_vel_x: -2
-  max_vel_trans: 2
+  max_vel_x: 1
+  min_vel_x: -1
+  max_vel_trans: 1
   min_vel_trans: 0.5
 
   # Tốc độ góc
